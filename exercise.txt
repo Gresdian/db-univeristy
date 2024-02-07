@@ -46,3 +46,8 @@ ESERCIZIO 6 Selezionare tutti i corsi di laurea magistrale:
 	SELECT * 
 	FROM `degrees`
 	WHERE `level` = 'magistrale';
+
+ESERCIZIO 7 Da quanti dipartimenti è composta l'università?
+
+	SELECT COUNT(*) 
+	FROM `departments`;
