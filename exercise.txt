@@ -41,5 +41,8 @@ ESERCIZIO 5 Selezionare tutti gli appelli d'esame che avvengono nel pomeriggio (
 	FROM `exams`
 	WHERE HOUR(`hour`) >= 14 AND `date` = '2020-06-20';
 
+ESERCIZIO 6 Selezionare tutti i corsi di laurea magistrale:
 
-
+	SELECT * 
+	FROM `degrees`
+	WHERE `level` = 'magistrale';
